@@ -1,0 +1,167 @@
+body{
+	font-family:Arial, sans-serif; 
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+header{
+	background: url(../img/789789.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+	background-attachment: scroll;
+}
+.container{
+	width:650px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 20px;
+	float: left;
+	margin-left: 0;
+
+}
+nav{
+	float: right;
+	margin-top: 20px;
+
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.titles_first{
+	font-size: 25px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+}
+h1{
+	font-size: 45px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+.button{
+	background: #ffd069;
+	color: #111;
+	border-radius: 2px;
+	display: block;
+	width: 130px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center; 
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 20px;
+
+}
+.title{
+	padding-top: 50px;
+
+}
+.title h2{
+	font-size: 27px;
+	font-weight: bold;
+	font-family: Arial bold, sans-serif;
+	text-align: center;
+	margin:0;
+
+}
+.title p{
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+	font-family: Book Antiqua;
+	margin-top:5px;
+
+}
+.english{
+	margin-top: 50px;
+
+}
+.english_1{
+	width: 270px;
+	float: left;
+	margin-left: 15px;
+
+}
+.english_1 h3{
+	font-size: 27px;
+	margin-bottom: 5px;
+}
+.english_1 p{
+	font-size: 12px;
+	color:#777;
+	font-family: Book Antiqua;
+}
+.tanya{
+	float: right;
+	width: 310px;
+	margin-top: 20px;
+}
+#services{
+	padding-bottom: 50px;
+
+}
+#vebinars{
+	background-color: #efefef;
+	font-family: Bodoni MT;
+}
+.veb_title h2{
+	font-size: 27px;
+	font-weight: bold;
+	font-family: Arial bold, sans-serif;
+	text-align: center;
+	margin:0;
+	padding-top: 50px;
+
+}
+.veb_title p{
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+	font-family: Book Antiqua;
+	margin-top:5px;
+}
+.works img{
+	float:left;
+	width: 170px;
+	height:170px;
+	padding-bottom: 40px;
+
+}
+.works img:first-child{
+	margin-left: 80px;
+}
+.works img:nth-child(2){
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color:#efefef; 
+}
+
